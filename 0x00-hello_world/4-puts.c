@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(void)
 
-/*
+/**
  * Initializing a variable
  * main - Entry point
  * Description:"Programming is like building
