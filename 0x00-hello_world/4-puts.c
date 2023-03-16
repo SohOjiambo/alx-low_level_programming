@@ -4,16 +4,11 @@
  * main -Entry point
  * Description:"Programming is like building
  * a multilingual puzzle, followed by a new line
- * main - Return value is 0
+ * return value is 0
  */
 int main(void)
-
-/*Char - Initializing variable*/
 {
-	char Code[] = "\"Programming is like building a multilingual puzzle";
-
-	puts(Code);
+	puts("\"Programming is like building a multilingual puzzle");
 
 	return (0);
-
 }
