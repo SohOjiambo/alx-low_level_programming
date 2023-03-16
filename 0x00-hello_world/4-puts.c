@@ -1,12 +1,13 @@
 #include<stdio.h>
-/*
- * Main prints exactly "Programming is like building
- * a multilingual puzzle, followed by a new line.
- * Retur value is 0
- */
 int main(void)
 
-/*Initializing a variable*/
+/*
+ * Initializing a variable
+ * main - Entry point
+ * Description:"Programming is like building
+ * a multilingual puzzle, followed by a new line
+ * Return value is 0
+ */
 {
 	char Code[] = "\"Programming is like building a multilingual puzzle";
 
