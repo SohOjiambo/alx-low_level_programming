@@ -12,6 +12,6 @@ int main(void)
 
 	puts(Code);
 
-	return 0;
+	return (0);
 
 }
