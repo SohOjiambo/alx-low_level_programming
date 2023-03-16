@@ -1,10 +1,14 @@
 #include<stdio.h>
-int main()
+/*
+ * Main prints exactly "Programming is like building a multilingual puzzle, followed by a new line.
+ * Retur value is 0
+ */
+int main(void)
 {
-    char Code[] = "\"Programming is like building a multilingual puzzle";
+	char Code[] = "\"Programming is like building a multilingual puzzle";
 
-    puts(Code);
+	puts(Code);
 
-    return 0;
+	return 0;
 
 }
