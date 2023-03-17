@@ -4,7 +4,7 @@
 
 /**
  * main - finds if a number is a positive, negative or zero.
- * 
+ *
  * Return: Always 0 (Success)
  */
 
