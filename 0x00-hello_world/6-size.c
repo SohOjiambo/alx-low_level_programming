@@ -6,7 +6,7 @@
  * Return: Always 0 (Success)
  */
 
-int main()
+int main(void)
 {
 	char character;
 	int interger;
@@ -14,12 +14,12 @@ int main()
 	long long longlong;
 	float floatint;
 
-	printf("Size of a char: %ld bytes\n",sizeof(character));
-	printf("Size of an int: %ld bytes\n",sizeof(interger));
-	printf("Size of long int: %ld bytes\n",sizeof(longint));
-	printf("Size of long long int: %ld byte\n",sizeof(longlong));
-	printf("Size of float: %ld byte\n",sizeof(floatint));
+	printf("Size of a char: %ld byte(s)\n",sizeof(character));
+	printf("Size of an int: %ld byte(s)\n",sizeof(interger));
+	printf("Size of long int: %ld byte(s)\n",sizeof(longint));
+	printf("Size of long long int: %ld byte(s)\n",sizeof(longlong));
+	printf("Size of float: %ld byte(s)\n",sizeof(floatint));
 
-	return 0;
+	return (0);
 }
 
