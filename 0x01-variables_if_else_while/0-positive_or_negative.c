@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 
-/** Main assigns random numbers
+/** 
+ * Main assigns random numbers
  *
  * and states whether its positive,negative
  * or zero
@@ -25,7 +26,7 @@ int main(void)
 		printf("%d is negative\n", n);
 	}
 	else
-	{	
+	{
 		printf("%d is zero\n", n);
 
 	}
