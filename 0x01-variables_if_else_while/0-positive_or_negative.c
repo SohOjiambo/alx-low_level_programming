@@ -2,21 +2,23 @@
 #include <time.h>
 #include <stdio.h>
 
-/** Main assigns random numbers 
+/** Main assigns random numbers
+ *
  * and states whether its positive,negative
  * or zero
  * Return: Always 0 (Success)
- */ 
+ */
+
 int main(void)
 {
 	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-		
+
 	if (n > 0)
 	{
-		printf("%d is a positive\n", n);
+		printf("%d is positive\n", n);
 	}
 	else if (n < 0)
 	{
