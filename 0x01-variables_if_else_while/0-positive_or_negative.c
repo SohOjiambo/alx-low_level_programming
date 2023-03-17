@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/** 
+/**
  * Main assigns random numbers
  *
  * and states whether its positive,negative
