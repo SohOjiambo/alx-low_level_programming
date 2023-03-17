@@ -8,19 +8,19 @@
 
 int main(void)
 {
-        char ch, CH;
+	char ch, CH;
 
-        for (ch = 'a'; ch <= 'z'; ch++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 
-        {
-                putchar(ch);
-        }
-        for (CH = 'A'; CH <= 'Z'; CH++)
+	{
+		putchar(ch);
+	}
+	for (CH = 'A'; CH <= 'Z'; CH++)
 
-        {
-                putchar(CH);
-        }
-        putchar('\n');
-        return (0);
+	{
+	putchar(CH);
+	}
+	putchar('\n');
+	return (0);
 }
 
