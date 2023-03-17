@@ -3,10 +3,8 @@
 #include <stdio.h>
 
 /**
- * Main assigns random numbers
- *
- * and states whether its positive,negative
- * or zero
+ * main - finds if a number is a positive, negative or zero.
+ * 
  * Return: Always 0 (Success)
  */
 
