@@ -19,7 +19,7 @@ void print_alphabet_x10(void)
 			_putchar(ch);
 		}
 
-		if (i != 10)
+		if (i != 11)
 		{
 			_putchar('\n');
 		}
