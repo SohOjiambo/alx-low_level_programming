@@ -1,4 +1,5 @@
 #incude "main.h"
+
 /**
  * _isupper - checks for uppercase character
  *@c: is the character being checked
