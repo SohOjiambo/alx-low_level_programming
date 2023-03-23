@@ -3,9 +3,9 @@
 /**
   * mul - Multiplies two integers
   * @a: The first number to multiply
-  * @b: The second number to multiply 
+  * @b: The second number to multiply
   *
-  * Return: The result of multiplication 
+  * Return: The result of multiplication
   */
 int mul(int a, int b)
 {
