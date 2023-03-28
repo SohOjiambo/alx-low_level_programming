@@ -7,7 +7,7 @@
  * Return : 0 on Sucess
  */
 
-void swap_int(int *a, int *b);
+void swap_int(int *a, int *b)
 {
 	int d;
 
