@@ -19,7 +19,7 @@ char *leet(char *x)
 			x[i] = '3';
 		while (x[i] == 'o' || x[i] == 'O')
 			x[i] = '0';
-		while (x[i] == 't' || xs[i] == 'T')
+		while (x[i] == 't' || x[i] == 'T')
 			x[i] = '7';
 		while (x[i] == 'l' || x[i] == 'L')
 			x[i] = '1';
