@@ -7,24 +7,25 @@
  * Return: value of x
  */
 
-
-char *leet(char *x)
+char *leet(char *s)
 {
-	int i;
+	int count = 0, i;
+	int lowercase[] = {97, 101, 111, 116, 108};
+	int uppercase[] = {65, 69, 79, 84, 76};
+	int numbers[] = {52, 51, 48, 55, 49};
 
-	for (i = 0; x[i] != '\0'; i++)
+	while (*(s + count) != '\0')
 	{
-		while (x[i] == 'a' || x[i] == 'A')
-			x[i] = '4';
-		while (x[i] == 'e' || x[i] == 'E')
-			x[i] = '3';
-		while (x[i] == 'o' || x[i] == 'O')
-			x[i] = '0';
-		while (x[i] == 't' || x[i] == 'T')
-			x[i] = '7';
-		while (x[i] == 'l' || x[i] == 'L')
-			x[i] = '1';
+		for (i = 0; i < 5; i++)
+		{
+			if (*(s + count) == lowercase[i] || *(s + count) == uppercase[i])
+			{
+				*(s + count) = numbers[i];
+				break;
+			}
+		}
+		count++;
 	}
 
-	return (x);
+	return (s);
 }
