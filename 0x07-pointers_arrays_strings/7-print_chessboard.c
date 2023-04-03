@@ -7,7 +7,7 @@
  * Return: no return
  */
 
-void print_chessboard(char (*a)[8]);
+void print_chessboard(char (*a)[8])
 {
 	int j;
 	int l = 0;
@@ -19,7 +19,7 @@ void print_chessboard(char (*a)[8]);
 			l = j;
 			_putchar('\n');
 		}
-		_putchar(a[j / 8][j - m]);
+		_putchar(a[j / 8][j - i]);
 	}
 	_putchar('\n');
 }
