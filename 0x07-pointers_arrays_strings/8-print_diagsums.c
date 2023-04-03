@@ -13,6 +13,7 @@
 void print_diagsums(int *a, int size)
 {
 	int x;
+	int j;
 	int sum1;
 	int sum2;
 
@@ -21,9 +22,9 @@ void print_diagsums(int *a, int size)
 		sum1 + = *(a + x * size + x);
 	}
 
-	for (x = 0, j = size - 1; i < size; i++, j--)
+	for (x = 0, j = size - 1; x < size; x++, j--)
 	{
-		sum2 += *(a + i * size + j);
+		sum2 += *(a + x * size + j);
 	}
 	printf("%d\n", sum1);
 	printf("%d\n", sum2);
