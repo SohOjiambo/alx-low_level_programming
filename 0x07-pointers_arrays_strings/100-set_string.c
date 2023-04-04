@@ -17,5 +17,5 @@ void set_string(char **s, char *to)
 	{
 		*(*s + x) = *(to + x);
 	}
-	*(*s + 1) = '\0';
+	**s + 1 = '\0';
 }
