@@ -14,9 +14,11 @@ int prime_check(unsigned int n, unsigned int x)
 	{
 		if (n == 0)
 			return (1);
+
+		else
+			return (0);
 	}
-	else
-		return (0);
+	return (prime_check(n, x + 1));
 }
 
 /**
@@ -28,11 +30,8 @@ int prime_check(unsigned int n, unsigned int x)
 
 int is_prime_number(int n)
 {
-	if (n == 0)
+	if (n < 2)
 		return (0);
-	if (n < 0)
-		return (0);
-	if (n == 1)
-		return (1);
+
 	return (prime_check(n, 2));
 }
