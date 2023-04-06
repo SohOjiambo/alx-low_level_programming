@@ -8,5 +8,7 @@ int nat_square(int n, int x);
 int _sqrt_recursion(int n);
 int prime_check(unsigned int n, unsigned int x);
 int is_prime_number(int n);
+int StrLen(char *s);
+int StrFind(char *s, int x, int y);
 int is_palindrome(char *s);
 int wildcmp(char *s1, char *s2);
