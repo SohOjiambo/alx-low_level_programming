@@ -11,10 +11,12 @@
 int nat_square(int n, int x)
 {
 	if (x <= n && n % x == 0)
+	{
 		if (x * (n / x) == 0)
 			return (x);
 		else
 			return (-1);
+	}
 	return (0 + nat_square(n, x + 1));
 }
 
@@ -30,7 +32,7 @@ int _sqrt_recursion(int n)
 {
 	if (n < 0)
 		return (-1);
-i	if (n == 0)
+	if (n == 0)
 		return (0);
 	if (n == 1)
 		return (1);
