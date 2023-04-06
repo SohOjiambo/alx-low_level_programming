@@ -10,7 +10,7 @@
 
 int nat_square(int n, int x)
 {
-	if (x % (n / x) == 0)
+	if (x <= n && n % x == 0)
 		if (x * (n / x) == 0)
 			return (x);
 		else
