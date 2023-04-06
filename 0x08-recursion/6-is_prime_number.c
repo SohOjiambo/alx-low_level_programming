@@ -10,14 +10,11 @@
 
 int prime_check(unsigned int n, unsigned int x)
 {
+	if (x * x > n)
+		return (1);
 	if (n % x == 0)
-	{
-		if (n == 0)
-			return (1);
+		return (0);
 
-		else
-			return (0);
-	}
 	return (prime_check(n, x + 1));
 }
 
