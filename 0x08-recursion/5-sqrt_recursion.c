@@ -14,9 +14,9 @@ int nat_square(int n, int x)
 	{
 		if (x * (n / x) == 0)
 			return (x);
-		else
-			return (-1);
 	}
+			else
+				return (-1);
 	return (0 + nat_square(n, x + 1));
 }
 
