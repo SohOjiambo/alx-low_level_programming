@@ -1,4 +1,4 @@
-#include “main.h”
+#include "main.h"
 #include <ctype.h>
 #include <stdio.h>
 #include <stdlib.h>
@@ -9,7 +9,7 @@
  * @argc: number of command line arguments
  * @argv: contains the program command line arguments
  *
- * Return: 0 - success 
+ * Return: 0 - success
  */
 
 int main(int argc, char *argv[])
@@ -18,16 +18,16 @@ int main(int argc, char *argv[])
 
 	for (x = 1; x < argc; x++)
 	{
-		for ( y = 0; argv[x][y] != ‘\0’; y++)
+		for (y = 0; argv[x][y] != '\0'; y++)
 		{
-			if (!isdigit(argv[i][j]))
+			if (!isdigit(argv[x][y]))
 			{
-				printf(“Error\n);
+				printf("Error\n");
 				return (1);
 			}
 		}
-		Sum += atoi(argv[x];
+		sum += atoi(argv[x]);
 	}
-	Printf (“%d\n”, sum);
+	printf("%d\n", sum);
 	return (0);
 }

@@ -1,4 +1,4 @@
-#include “main.h”
+#include "main.h"
 #include <stdio.h>
 
 /**
@@ -9,8 +9,8 @@
  * Return: 0 - success
  */
 
-int main( int argc, char *argv[] _attribute_((unused)))
+int main(int argc, char *argv[] __attribute__((unused)))
 {
-	printf(“%d\n”, argc - 1);
-	return(0);
+	printf("%d\n", argc - 1);
+	return (0);
 }
