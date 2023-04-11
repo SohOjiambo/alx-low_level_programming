@@ -28,11 +28,11 @@ char *argstostr(int ac, char **av)
 	if (count == NULL)
 		return (NULL);
 
-	for (c = 0; c < ac; c++)
+	for (c = 0, a = 0; c < ac; a++)
 	{
-		for (b = 0; av[a][b] != '\0'; b++)
+		for (b = 0; av[c][b] != '\0'; b++)
 		{
-			count[c] = av[a][b];
+			count[c] = av[c][b];
 			c++;
 		}
 		count[c] = '\n';
