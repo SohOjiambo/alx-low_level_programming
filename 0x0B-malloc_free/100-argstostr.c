@@ -36,7 +36,7 @@ char *argstostr(int ac, char **av)
 			c++;
 		}
 		count[c] = '\n';
-		c++
+		c++;
 	}
 	count[c] = '\0';
 
