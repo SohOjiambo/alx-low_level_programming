@@ -28,7 +28,7 @@ char *argstostr(int ac, char **av)
 	if (count == NULL)
 		return (NULL);
 
-	for (c = 0, a = 0; c < ac; a++)
+	for (c = 0, a = 0; c < len && a < ac; a++)
 	{
 		for (b = 0; av[c][b] != '\0'; b++)
 		{
