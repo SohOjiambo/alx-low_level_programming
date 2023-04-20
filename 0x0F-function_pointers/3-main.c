@@ -1,6 +1,6 @@
 #include "3-calc.h"
 #include <stdio.h>
-#include <stlib.h>
+#include <stdlib.h>
 
 /**
  * main - main function
@@ -34,7 +34,7 @@ int main(int argc, char *argv[])
 	a = atoi(argv[1]);
 	b = atoi(argv[3]);
 
-	printf("%d\n", o(a, b));
+	printf("%d\n", oprn(a, b));
 
 	return (0);
 }

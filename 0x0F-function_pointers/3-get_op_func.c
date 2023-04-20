@@ -1,6 +1,6 @@
-#incude "3-calc.h"
+#include "3-calc.h"
 #include <stdio.h>
-#include <stlib.h>
+#include <stdlib.h>
 
 /**
  * get_op_func - selects the correct function to perform the
@@ -29,6 +29,6 @@ int (*get_op_func(char *s))(int, int)
 		if (ops[i].op[0] == s[0])
 			return (ops[i].f);
 		i++;
-	{
+	}
 	return (NULL);
 }
