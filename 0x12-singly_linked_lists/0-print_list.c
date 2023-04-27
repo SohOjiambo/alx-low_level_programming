@@ -18,8 +18,8 @@ size_t print_list(const list_t *h)
 		else
 			printf("[%d] %s\n", h->len, h->str);
 
-	h = h->next;
-	node_count++;
+		h = h->next;
+		node_count++;
 	}
 
 	return (node_count);
