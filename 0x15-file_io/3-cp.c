@@ -40,12 +40,12 @@ void copyFiles(const char *file_from, const char *file_to)
 	}
 	if (close(from) == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %s\n", from);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", from);
 		exit(100);
 	}
 	if (close(to) == -1)
 	{
-		dprintf(STDERR_FILENO, "Error: Can't close fd %s\n", to);
+		dprintf(STDERR_FILENO, "Error: Can't close fd %d\n", to);
 		exit(100);
 	}
 }
