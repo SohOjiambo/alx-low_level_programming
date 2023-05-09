@@ -2,10 +2,10 @@
 
 /**
  * copyFiles -  copies the content of a file to another file.
- * @file_from: source of the files
+ * @file_from: source of the files.
  * @file_to: destination to copy the files to
  *
- * Return: No return
+ * Return: No return.
  */
 
 void copyFiles(const char *file_from, const char *file_to)
